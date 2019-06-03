@@ -1,0 +1,1 @@
+$(function(){FlashDetect.installed||$('.ad[data-extension="swf"]').remove(),$(".widget-extra-info-holder").each(function(){var t=$(this),e=t.text(),a=t.closest(".widget");try{e=JSON.parse(e),Object.keys(e).forEach(function(t){a.attr(t,e[t]),a.data("scroll")&&!a.is(".scrollbar-initialized")&&window.page.scrollbar.InitOnWidget(a)})}catch(t){}})});
